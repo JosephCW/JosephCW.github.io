@@ -4,11 +4,12 @@ body {
     text-align: center;
     min-width: 720px;
     max-width: 1200px;
-    margin: 10px auto 25px auto;
+    margin: 25px auto 25px auto;
+    padding: 20px 0px 20px 0px;
+    border: 2px double hsla(0, 100%, 100%, 0.8);
 }
 
 .wrapper {
-    border: 2px double hsla(0, 100%, 100%, 0.8);
     padding: 20px;
     font-size: 80%;
 }
@@ -18,14 +19,27 @@ body {
     margin: 3px auto 3px auto;
 }
 
-.navigation li {
-    display: inline;
+.navigation {
+    border-top: 2px double hsla(0, 100%, 100%, 0.8);
+    border-bottom: 2px double hsla(0, 100%, 100%, 0.8);
+    padding: 10px 0px 10px 0px;
+    margin: 0px auto 0px auto;
+    min-width: 600px;
+    max-width: 700px;
 }
 
-/* .navigation li a {
-    background-color: hsla(0, 100, 25%, 0.8);
-    color: hsla(0, 100, 25%, 0.8);
-} */
+.navigation li {
+    /* display: inline; */
+    display: inline;
+    margin: 0px 25px;
+    padding: 9px 2px;
+}
+
+.navigation li a {
+    display: inline-block;
+    width: 120px;
+    overflow: hidden;
+}
 
 .nav-button {
     text-decoration: none;
@@ -40,7 +54,6 @@ a.nav-button:active {
     color: #222222;
     border-color: #000000;
 }
-
 
 section {
     color: hsla(0, 100%, 100%, 0.8);
