@@ -2,7 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #222222;
     text-align: center;
-    min-width: 600px;
+    min-width: 720px;
     max-width: 1200px;
     margin: 10px auto 25px auto;
 }
@@ -22,11 +22,25 @@ body {
     display: inline;
 }
 
-.navigation a{
+/* .navigation li a {
+    background-color: hsla(0, 100, 25%, 0.8);
+    color: hsla(0, 100, 25%, 0.8);
+} */
+
+.nav-button {
     text-decoration: none;
-    font-size: 100%;
+    font-size: 120%;
+    padding: 3px 15px 3px 15px;
+    border: 2px double hsla(0, 100%, 100%, 0.8);
     color: hsla(0, 100%, 100%, 0.8);
 }
+
+a.nav-button:active {
+    background-color: hsla(0, 100%, 100%, 0.8);
+    color: #222222;
+    border-color: #000000;
+}
+
 
 section {
     color: hsla(0, 100%, 100%, 0.8);
