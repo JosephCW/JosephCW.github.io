@@ -1,7 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 80%;
-    background-color: #060501;
+    background-color: #222222;
     text-align: center;
     min-width: 600px;
     max-width: 1200px;
@@ -11,8 +10,7 @@ body {
 .wrapper {
     border: 2px double hsla(0, 100%, 100%, 0.8);
     padding: 20px;
-    
-
+    font-size: 80%;
 }
 
 .center {
@@ -20,16 +18,13 @@ body {
     margin: 3px auto 3px auto;
 }
 
-/* .navigation {
-    
-} */
-
 .navigation li {
     display: inline;
 }
 
 .navigation a{
     text-decoration: none;
+    font-size: 100%;
     color: hsla(0, 100%, 100%, 0.8);
 }
 
